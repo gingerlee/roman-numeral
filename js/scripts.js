@@ -13,9 +13,21 @@ var inputFunction = function(inputNumber) {
   var thousandsItem = "";
 
   for (var index = 0; index < reverseArray.length; index++) {
-    if (index )
+    if (index === 0) {
+      onesItem = translation(inputArray[index], ones);
+    }
+    else if (index === 1) {
+      tensItem = translation(inputArray[index], tens);
+    }
+    else if (index === 2) {
+      hundredsItem = translation(inputArray[index], hundreds);
+    }
+    else if (index === 3) {
+      thousandsItem = translation(inputArray[index], thousands)
+    }
+    }
   }
-}
+} //close inputFunction
 
 
 
