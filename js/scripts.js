@@ -1,28 +1,23 @@
 //business logic
-var ones = [I, V, X]
-var tens = [X, L, C]
-var hundreds = [C, D, M]
-var thousands = [M]
+var ones = ["I", "V", "X"]
+var tens = ["X", "L", "C"]
+var hundreds = ["C", "D", "M"]
+var thousands = ["M"]
 
 
-var inputFunction = function (input) {
-  var inputNumber =
+var inputFunction = function(inputNumber) {
   var reverseArray = inputNumber.split("").reverse();
-  var onesItem = reverseArray[0];
-  var tensItem = reverseArray[1];
-  var hundredsItem = reverseArray[2];
-  var thousandsItem = reverseArray[3];
+  var onesItem = "";
+  var tensItem = "";
+  var hundredsItem = "";
+  var thousandsItem = "";
 
-  alert(tensItem);
-
+  for (var index = 0; index < reverseArray.length; index++) {
+    if (index )
+  }
 }
 
-var translate = function(onesItem, ones) {
-  var inputArray = inputNumber.split(""); //splits number into array
 
-
-
-}
 
 //user interface logic
 $(document).ready(function() {
